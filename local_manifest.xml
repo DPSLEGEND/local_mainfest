@@ -4,7 +4,7 @@
  <remote name="dps" fetch="https://github.com/DPSLEGEND" />
  <remote name="parts" fetch="https://github.com/Realme-G70-Series" />
  <remote name="ims" fetch="https://github.com/AOSP-12-RMX2020" />
-
+ <remote name="lawn" fetch="https://github.com/ArrowOS" />
  
      <project path="device/realme/moon" name="device_realme_moon" remote="dps" revision="Cipher-12" />
      <project path="vendor/realme/moon" name="vendor_realme_moon" remote="dps" revision="twelve" />
@@ -13,5 +13,6 @@
      <project path="kernel/realme/moon" name="kernel_realme_moon" remote="dps" revision="12-rui2" />
      <remove-project name="android_frameworks_opt_net_ims" />
      <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="ims" revision="aosp-12" />
-    
+     <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="lawn" revision="arrow-12.0" />
+
 </manifest>
